@@ -1,6 +1,6 @@
 # Credit Card Fraud Detection
 
-This repository contains the code and analysis for our credit card fraud detection project, using the **Credit Card Fraud Detection Dataset 2023** from Kaggle. Our objective is to identify fraudulent transactions using machine learning techniques.
+This repository contains the code and analysis for our credit card fraud detection project, using the [**Credit Card Fraud Detection Dataset 2023**](https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023) from Kaggle. Our objective is to identify fraudulent transactions using machine learning techniques.
 
 ## Introduction
 
@@ -30,13 +30,23 @@ Credit card fraud is a significant issue in the financial industry, with sophist
 - **Best k-value**: 5
 - **Accuracy**: 93.49%
 
+<img width="70%" alt="image" src="images/KNN.jpg">
+
 ### Decision Tree
 - **Method**: Recursive binary splitting
 - **Accuracy**: 99.83%
 - **Key Features**: V14, V4, and V10 show the strongest correlations with fraudulent transactions.
 
+<img width="70%" alt="image" src="images/Decision tree.jpg">
+
+- **Plotting Tree**:
+
+<img width="80%" alt="image" src="images/Tree.jpg">
+
 ### Regularized Regression (Ridge & Lasso)
 - **Objective**: Assist with feature selection by shrinking coefficients of less important features.
+
+<img width="80%" alt="image" src="images/Ridge.jpg">
 
 ## Results
 
@@ -48,6 +58,8 @@ Credit card fraud is a significant issue in the financial industry, with sophist
     - **V4**: Another highly relevant feature, showing significant correlation with fraudulent transactions.
     - **V10**: This feature also demonstrated a strong impact in distinguishing between legitimate and fraudulent activities.
   - These features provide valuable insights into the patterns and characteristics of fraud, helping improve the detection accuracy of machine learning models.
+ 
+<img width="70%" alt="image" src="images/Feature importance.jpg">
 
 ## Conclusion
 
