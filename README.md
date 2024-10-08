@@ -1,6 +1,6 @@
 # Credit Card Fraud Detection
 
-This repository contains the code and analysis for our credit card fraud detection project, using the [**Credit Card Fraud Detection Dataset 2023**](https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023) from Kaggle. Our objective is to identify fraudulent transactions using machine learning techniques.
+This repository contains the code and analysis for our credit card fraud detection project, using the Credit Card Fraud Detection Dataset 2023 from Kaggle. Our objective is to identify fraudulent transactions using machine learning techniques.
 
 ## Introduction
 
@@ -8,7 +8,7 @@ Credit card fraud is a significant issue in the financial industry, with sophist
 
 ## Dataset
 
-- **Source**: Kaggle - Credit Card Fraud Detection Dataset 2023
+- **Source**:  [**Kaggle - Credit Card Fraud Detection Dataset 2023**](https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023)
 - **Size**: 550,000 transaction records
 - **Features**:
   - **ID**: Unique identifier for each transaction
